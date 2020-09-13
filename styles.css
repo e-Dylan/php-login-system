@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700');
+
+/* Global */
+
+body {
+
+  background: #eee;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+ul {
+
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.darkButton {
+
+  padding: 10px;
+  color: white;
+  font-family: "Asap", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  background: #38383a;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s ease;
+
+}
+
+.darkButton:hover {
+
+  background: slategray;
+
+}
+
+.lightButton:hover {
+
+  background: #eee;
+
+}
+
+.lightButton {
+
+  padding: 10px;
+  color: gray;
+  font-family: "Asap", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  background: white;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s ease;
+
+}
+
+.current {
+
+  background: #eee;
+  border-radius: 10px;
+
+}
+
+/* Header */
+
+header {
+
+  background: white;
+  height: 70px;
+  border-bottom: 2px solid slategray;
+
+}
+
+header img {
+
+  width: 60px;
+  float: left;
+  padding: 10px;
+  padding-right: 10px;
+  margin: auto;
+
+}
+
+header li {
+
+  display: inline;
+  float: left;
+  padding: 10px;
+  margin-top: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Asap", sans-serif;
+
+}
+
+header a {
+
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: 0.3s ease;
+
+}
+
+header a:hover {
+
+  background: #eee;
+  border-radius: 10px;
+
+}
+
+header .header-login {
+
+  float: right;
+  margin-right: 30px;
+
+}
+
+.wrapper-main {
+
+  background: white;
+  text-align: center;
+  font-family: "Asap", sans-serif;
+  font-size: 24px;
+  width: 400px;
+  margin: auto;
+
+}
+
+.textbox {
+
+  border-radius: 4px;
+  height: 30px;
+  width: 200px;
+  margin: 7px;
+  font-family: "Asap", sans-serif;
+  background: #eee;
+  border: none;
+  text-indent: 15px;
+
+}
+
+.header-form input[type = "text"]{
+
+  margin-top: -15px;
+
+}
+
+.header-form input[type = "password"] {
+
+  margin-top: -15px;
+
+}
+
+/* Signup Form */
+.form-signup {
+
+  text-align: center;
+  margin: auto;
+  width: 300px;
+
+}
+
+#signup-form-button {
+
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+
+.section-default {
+
+  margin-bottom: 432px;
+
+}
+
+/* Footer */
+footer {
+
+  text-align: center;
+  background: white;
+  font-family: "Asap", sans-serif;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  color: slategray;
+
+}
